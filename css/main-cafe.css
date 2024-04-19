@@ -1,0 +1,174 @@
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #666;
+}
+
+p a {
+  color: #ff6;
+}
+
+p a:hover {
+  color: #9ff;
+}
+
+#about p a {
+  color: #066;
+}
+#about p a:hover {
+  color: #f36;
+}
+
+#contact p a {
+  color: #066;
+}
+
+footer span a {
+  color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.logo {
+  margin-top: -20px;
+}
+
+.navbar {
+  position: fixed !important;
+}
+
+.navbar-inverse {
+  opacity: 85%;
+}
+
+.box-center {
+  margin-top: 120px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.parallax-window {
+  min-height: 1064px;
+  background: transparent;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.bg-black {
+  background-color: #000000;
+  opacity: 85%;
+}
+
+.intro-width {
+  max-width: 436px;
+}
+
+.nav > li > a:focus,
+.nav > li > a:hover {
+  text-decoration: none;
+  background-color: transparent !important;
+}
+
+.input:focus {
+  outline: none !important;
+  border: 1px solid #cc9966;
+  box-shadow: 0 0 10px #b67533;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: rgb(214, 212, 212);
+  opacity: 1;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: rgb(214, 212, 212);
+}
+
+input::-ms-input-placeholder,
+textarea::-ms-input-placeholder {
+  color: rgb(214, 212, 212);
+}
+
+#nav {
+  z-index: 1000;
+  transition: all 0.3s ease;
+}
+
+#nav.scroll {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#nav li a {
+  font-size: 20px;
+  border-bottom-color: transparent;
+  transition: all 0.3s ease;
+}
+
+#nav li a.current,
+#nav li a:hover {
+  color: #fd9b36;
+}
+
+.text-2xl {
+  font-size: 1.6rem;
+  line-height: 2rem;
+}
+
+.panel-footer {
+  background-color: #000000 !important;
+  opacity: 85%;
+}
+
+@media (min-width: 768px) {
+  #nav.scroll .tab-container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .md-box {
+    width: 615px;
+  }
+}
+
+@media (max-width: 767px) {
+  #nav {
+    width: 100%;
+    right: 0;
+    border-radius: 5px;
+  }
+  .sm-screen {
+    margin-top: 30px;
+  }
+  .logo {
+    margin-top: -55px;
+    margin-bottom: 40px;
+  }
+  .md-box {
+    width: 620px;
+  }
+  .md-footer {
+    text-align: center;
+  }
+}
+
+@media (max-width: 639px) {
+  .parallax-window {
+    min-height: 600px;
+  }
+  .sm-screen {
+    margin-top: 30px;
+  }
+
+  .logo {
+    margin-top: -55px;
+    margin-bottom: 40px;
+  }
+  .md-box {
+    width: 460px;
+  }
+}
