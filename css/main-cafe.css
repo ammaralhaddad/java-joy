@@ -149,9 +149,14 @@ textarea::-ms-input-placeholder {
     width: 100%;
     right: 0;
     border-radius: 5px;
+    background-color: #141414;
    opacity: 100% !important;
   
 
+  }
+
+  #nav.scroll {
+    background-color: #141414!important
   }
 
   .sm-screen {
