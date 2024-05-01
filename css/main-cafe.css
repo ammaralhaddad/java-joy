@@ -22,9 +22,7 @@ p a:hover {
   color: #066;
 }
 
-footer span a {
-  color: #fff;
-}
+
 
 .container {
   max-width: 1200px;
@@ -122,8 +120,19 @@ textarea::-ms-input-placeholder {
 
 .panel-footer {
   background-color: #000000 !important;
-  opacity: 85%;
+  color: #FFFFFF;
 }
+
+.panel-footer a {
+  color: #FFFFFF !important;
+}
+
+.panel-footer .links-box h5 {
+  letter-spacing: 2px; 
+  color:#fd9b36;
+}
+
+
 
 @media (min-width: 768px) {
   #nav.scroll .tab-container {
@@ -151,9 +160,7 @@ textarea::-ms-input-placeholder {
   .md-box {
     width: 620px;
   }
-  .md-footer {
-    text-align: center;
-  }
+  
 }
 
 @media (max-width: 639px) {
@@ -171,4 +178,5 @@ textarea::-ms-input-placeholder {
   .md-box {
     width: 370px;
   }
+  
 }
