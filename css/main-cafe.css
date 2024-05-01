@@ -149,7 +149,11 @@ textarea::-ms-input-placeholder {
     width: 100%;
     right: 0;
     border-radius: 5px;
+   opacity: 100% !important;
+  
+
   }
+
   .sm-screen {
     margin-top: 30px;
   }
