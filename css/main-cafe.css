@@ -185,7 +185,11 @@ textarea::-ms-input-placeholder {
     margin-bottom: 40px;
   }
   .md-box {
-    width: 370px;
+    width: 320px;
+  }
+
+  .small-screen {
+    margin-bottom: 300px !important;
   }
   
 }
