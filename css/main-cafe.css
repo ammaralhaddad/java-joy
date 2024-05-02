@@ -3,41 +3,8 @@ body {
   background-color: #666;
 }
 
-p a {
-  color: #ff6;
-}
-
-p a:hover {
-  color: #9ff;
-}
-
-#about p a {
-  color: #066;
-}
-#about p a:hover {
-  color: #f36;
-}
-
-#contact p a {
-  color: #066;
-}
-
-
-
 .container {
   max-width: 1200px;
-}
-
-.logo {
-  margin-top: -20px;
-}
-
-.navbar {
-  position: fixed !important;
-}
-
-.navbar-inverse {
-  opacity: 85%;
 }
 
 .box-center {
@@ -56,41 +23,17 @@ p a:hover {
   color: #ffffff;
 }
 
+
+
 .bg-black {
   background-color: #000000;
   opacity: 85%;
 }
 
-.intro-width {
-  max-width: 436px;
-}
+/* Nav Section */
 
-.nav > li > a:focus,
-.nav > li > a:hover {
-  text-decoration: none;
-  background-color: transparent !important;
-}
-
-.input:focus {
-  outline: none !important;
-  border: 1px solid #cc9966;
-  box-shadow: 0 0 10px #b67533;
-}
-
-input::placeholder,
-textarea::placeholder {
-  color: rgb(214, 212, 212);
-  opacity: 1;
-}
-
-input:-ms-input-placeholder,
-textarea:-ms-input-placeholder {
-  color: rgb(214, 212, 212);
-}
-
-input::-ms-input-placeholder,
-textarea::-ms-input-placeholder {
-  color: rgb(214, 212, 212);
+.logo {
+  margin-top: -20px;
 }
 
 #nav {
@@ -113,10 +56,91 @@ textarea::-ms-input-placeholder {
   color: #fd9b36;
 }
 
-.text-2xl {
-  font-size: 1.6rem;
-  line-height: 2rem;
+.navbar {
+  position: fixed !important;
 }
+
+.navbar-inverse {
+  opacity: 85%;
+}
+
+
+.nav > li > a:focus,
+.nav > li > a:hover {
+  text-decoration: none;
+  background-color: transparent !important;
+}
+
+
+
+
+/* Hero Section */
+
+
+.hero-section h1 {
+  font-size: 30px;
+}
+
+.hero-section p {
+  font-size: 20px;
+}
+
+.intro-width {
+  max-width: 550px;
+}
+
+
+/* Menu Section  */
+
+.menu-section h2 {
+  font-size: 28px;
+}
+
+
+
+
+
+
+/* About section */
+
+.about-section h2 {
+  font-size: 28px;
+}
+.about-section p{
+  font-size: 18px;
+}
+
+ .btn {
+ font-size: 20px !important;
+ border-radius: 100px !important;
+}
+.btn:hover {
+  color: #fd9b36 !important;
+}
+
+/* Contact section */
+
+.contact-section h2 {
+  font-size: 28px;
+}
+
+.contact-section p {
+  font-size: 18px;
+}
+
+
+.contact-section a:hover {
+  color: #fd9b36 !important;
+}
+
+.contact-google{
+  font-size: 18px;
+}
+
+
+
+
+/* Footer section */
 
 .panel-footer {
   background-color: #000000 !important;
@@ -192,4 +216,16 @@ textarea::-ms-input-placeholder {
     margin-bottom: 300px !important;
   }
   
+}
+
+.row-1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.rounded-circle {
+  border-radius: 50% !important;
 }
