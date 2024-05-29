@@ -30,7 +30,6 @@ body {
   opacity: 85%;
 }
 
-/* Nav Section */
 
 .logo {
   margin-top: -20px;
@@ -142,30 +141,13 @@ body {
 
 /* Footer section */
 
-.panel-footer {
-  background-color: #000000 !important;
-  color: #FFFFFF;
+.footer-link a {
+  color: #fd9b36;
 }
 
-.panel-footer a {
-  color: #FFFFFF !important;
-}
-
-.panel-footer .links-box h5 {
-  letter-spacing: 2px; 
-  color:#fd9b36;
-}
-
-
-
-@media (min-width: 768px) {
-  #nav.scroll .tab-container {
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-  .md-box {
-    width: 615px;
-  }
+.footer-link a:hover{
+  color: #fd9b36;
+  text-decoration: none;
 }
 
 
@@ -235,20 +217,6 @@ body {
   
 }
 
-/* .menu-section img{
-  padding-left: 35px;
-}
-.menu-section h3 {
-  text-align: center;
-}
-
-.menu-section h4{
-  text-align: center;
-}
-
-.menu-section p{
-  text-align: center;
-} */
 
 
 .row-1 {
